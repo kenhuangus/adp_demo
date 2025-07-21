@@ -46,6 +46,21 @@ Running `python agent.py` executes a full ADP delegation flow:
 5. **Resource Access:** The agent uses the access token to access the protected resource server (`/calendar`).
 6. **Output:** Step-by-step logs and the resource server’s response are printed in your terminal.
 
+---
+
+## 4a. Demo Screenshots: ADP Flow in Action
+
+**Authorization Server Startup:**
+![Auth Server Screenshot](auth_server.png)
+
+**Resource Server Startup:**
+![Resource Server Screenshot](resource_server.png)
+
+**Agent Running and Delegation Flow:**
+![Agent Running Screenshot](agent_running.png)
+
+---
+
 ## 5. How is this demo implemented?
 - **Backend:** Python (FastAPI) for both Authorization Server and Resource Server
 - **Agent:** Python script simulating an AI agent
